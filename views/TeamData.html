@@ -1,0 +1,22 @@
+<h2>
+Premier Legue Top 10 Teams Season 2015/2016
+</h2>
+<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ9oM0VR_PdxZP1jNCkxazMeV1QLspU8ymCV3eKpg_sAqhpW-RVSQ">
+<div class="container">
+<br /> <br />
+<table class="table-bordered">
+<tr class = "space ">
+<th style="text-align:center">Logo</th>
+<th style="text-align:center">Team Name</th>
+<th>&nbsp;</th>
+</tr>
+<br /> <br/>
+<tr ng-repeat = "team in TheTeamData">
+
+<td><img style="display:block;" width="30%" height="30%" src={{team.LogoURL}}></td>
+<td class = "col-sm-4">{{team.TeamName}}</td>
+<td class ="col-sm-4"><a href="#/ViewPlayers/{{team.TeamName}}">View Team Squad</a></td>
+</tr>
+</br>
+</table>
+</div>

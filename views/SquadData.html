@@ -1,0 +1,17 @@
+<div class="container">
+<h2>Team Details<h2>
+  <table class="table">
+    <div>
+    <tr>
+    <th style="text-align:center">S.No</th>
+    <th style="text-align:center">Player Name</th>
+    </tr>
+  </div>
+    <br>
+    <br>
+    <tr ng-repeat="member in wholesquad.Squad">
+      <td>{{$index+1}}</td>
+      <td >{{member.PlayerName}}</td>
+    </tr>
+  </table>
+</div>

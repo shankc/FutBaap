@@ -1,0 +1,16 @@
+{
+  "name": "mayuukhvarshney",
+  "version": "1.0.0",
+  "description": "App of top 10 football teams in PL and their Rosters",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "x"
+  },
+  "author": "Mayuukh Varshney",
+  "license": "ISC"
+}
